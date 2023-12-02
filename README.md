@@ -10,4 +10,4 @@ This approach aims to maintain an organized queuing process for individuals visi
 
 ## UML Class Diagram
 
-![Singleton Pattern UML](https://github.com/FroilanDelfinJr/singletonPattern/assets/142400742/c41dea5d-1734-4a27-8f97-c43cd33842ed)
+![Singleton Pattern UML](https://github.com/FroilanDelfinJr/singletonPattern/assets/142400742/536d1599-06b0-418c-906b-09db81f9f5b3)
