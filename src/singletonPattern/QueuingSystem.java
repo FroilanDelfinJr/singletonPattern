@@ -6,7 +6,7 @@ public class QueuingSystem {
     private int currentQueueNum;
 
     private QueuingSystem(){
-        this.currentQueueNum = 0;
+        this.currentQueueNum = 1;
     }
 
     public static synchronized QueuingSystem getInstance(){
@@ -16,17 +16,17 @@ public class QueuingSystem {
     }
 
     public synchronized int getCurrentQueueNum(){
-        System.out.println("Current Queue Number: " + currentQueueNum);
+        System.out.println("\tCurrent Queue Number: " + currentQueueNum);
         return currentQueueNum;
     }
 
     public synchronized void incrementQueueNum(){
         currentQueueNum++;
-        System.out.println("Current Queue Number: " + currentQueueNum);
+        System.out.println("\tCurrent Queue Number: " + currentQueueNum);
     }
 
     public synchronized void resetQueueNum(int newQueueNum) {
         currentQueueNum = newQueueNum;
-        System.out.println("Queue Reset. Current Queue Number: " + currentQueueNum);
+        System.out.println("\tQueue Reset. Current Queue Number: " + currentQueueNum);
     }
 }
